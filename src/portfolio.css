@@ -1,0 +1,15 @@
+/* font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Jacques Francois', serif;
+font-family: 'Poiret One', cursive; */
+h1{
+  font-family: 'Annie Use Your Telescope', cursive;  
+  font-weight: 500px;
+}
+h2{
+ 
+  font-family: 'Poiret One', cursive; 
+  font-weight: 500px;
+}
+h3 {
+ font-family: 'Cormorant Garamond', serif; 
+}
