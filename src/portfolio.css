@@ -1,15 +1,56 @@
-/* font-family: 'Annie Use Your Telescope', cursive;
-font-family: 'Jacques Francois', serif;
-font-family: 'Poiret One', cursive; */
-h1{
-  font-family: 'Annie Use Your Telescope', cursive;  
-  font-weight: 500px;
+/* color:#CCF7F3;
+color:#BCBEA8 ; */
+/* rgb(164, 236, 190) */
+:root {
+  /* --primary-color:rgb(222 235 160); */
+  --primary-color: rgb(198 242 21);
+  --secondary-color: rgb(222 235 160);
+  --accent-color: rgb(#31006f);
+  --heading-font-family: "Annie Use Your Telescope", cursive;
+  --default-font-family: "Abril Fatface", cursive;
 }
-h2{
- 
-  font-family: 'Poiret One', cursive; 
-  font-weight: 500px;
+body {
+  font-family: var(--default-font-family);
 }
-h3 {
- font-family: 'Cormorant Garamond', serif; 
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 500px;
+  color: var(--accent-color);
+  font-size: 150px;
+  text-align: center;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-size: 50px;
+  line-height: 2;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: end;
+  color: var(--accent-color);
+}
+.hero {
+  padding: 160px 20px;
+  background-color: var(--primary-color);
+}
+.hero p {
+  text-align: center;
+  background-color:#31006f;
+  font-family: "Poiret One", cursive;
+  font-size: 50px;
+  display: flex;
+  color: var(--secondary-color);
+}
+.contact-button {
+  text-align: center;
+}
+.contact-button a {
+  border: 4px dotted #31006f;
+  color: var(--accent-color);
+  font-size: 20px;
+}
+.contact-button a:hover {
+  background-color: #31006f;
+  color: white;
 }
