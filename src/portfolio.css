@@ -3,9 +3,9 @@ color:#BCBEA8 ; */
 /* rgb(164, 236, 190) */
 :root {
   /* --primary-color:rgb(222 235 160); */
-  --primary-color: rgb(198 242 21);
-  --secondary-color: rgb(222 235 160);
-  --accent-color: rgb(#31006f);
+  --primary-color: rgb(198, 242, 21);
+  --secondary-color: rgb(222, 235, 160);
+  --accent-color: #31006f;
   --heading-font-family: "Annie Use Your Telescope", cursive;
   --default-font-family: "Abril Fatface", cursive;
 }
@@ -20,37 +20,58 @@ h1 {
   text-align: center;
   text-decoration: underline;
 }
-h2 {
+ h2{
   text-align: center;
   font-family: "Poiret One", cursive;
   font-size: 50px;
   line-height: 2;
-  background-color: var(--secondary-color);
+  background-color: var(--accent-color);
   display: flex;
   justify-content: end;
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
+
 .hero {
   padding: 160px 20px;
   background-color: var(--primary-color);
 }
 .hero p {
   text-align: center;
-  background-color:#31006f;
+  background-color: var(--accent-color);
   font-family: "Poiret One", cursive;
   font-size: 50px;
   display: flex;
   color: var(--secondary-color);
 }
-.contact-button {
+.primary-button {
   text-align: center;
 }
-.contact-button a {
-  border: 4px dotted #31006f;
+.primary-button a {
+  border: 4px dotted var(--accent-color);
   color: var(--accent-color);
   font-size: 20px;
 }
-.contact-button a:hover {
-  background-color: #31006f;
+.primary-button a:hover {
+  background-color: var(--accent-color);
   color: white;
+}
+
+@media (max-width: 576px) {
+   h1 {
+   font-size:80px; 
+  }
+  h2{
+    font-size:25px;
+  ;
+  }
+  p {
+    text-align: center;
+  }
+  .hero {
+     padding: 80px 10px;
+  }
+  .hero p {
+    font-size:25px;
+    width: 100%;
+  }
 }
