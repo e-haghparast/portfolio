@@ -24,7 +24,7 @@ h1 {
   background-color: var(--accent-color);
   display: flex;
   justify-content: end;
-  color: var(--secondary-color);
+  color: white;
 }
 
 .hero {
@@ -39,6 +39,9 @@ h1 {
   display: flex;
   color: var(--secondary-color);
 }
+.heading {
+ color: var(--secondary-color);
+}
 .primary-button {
   text-align: center;
 }
@@ -51,6 +54,7 @@ h1 {
   background-color: var(--accent-color);
   color: white;
 }
+
 
 @media (max-width: 576px) {
    h1 {
