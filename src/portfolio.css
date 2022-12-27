@@ -1,8 +1,4 @@
-/* color:#CCF7F3;
-color:#BCBEA8 ; */
-/* rgb(164, 236, 190) */
 :root {
-  /* --primary-color:rgb(222 235 160); */
   --primary-color: rgb(198, 242, 21);
   --secondary-color: rgb(222, 235, 160);
   --accent-color: #31006f;
