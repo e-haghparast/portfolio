@@ -26,7 +26,10 @@ h1 {
   justify-content: end;
   color: white;
 }
-
+h3 {
+  font-family: var(--deafault-font-family);
+  color: var(--accent-color);
+} 
 .hero {
   padding: 160px 20px;
   background-color: var(--primary-color);
@@ -63,7 +66,14 @@ font-size: 70px;
   background-color: var(--accent-color);
   color: white;
 }
-
+.wrapper {
+  border: 4px dotted var(--accent-color);
+  max-width: 450px;
+}
+.address:hover {
+color:var(--primary-color);
+text-decoration: none;
+}
 
 @media (max-width: 576px) {
    h1 {
@@ -90,5 +100,7 @@ font-size: 70px;
     font-size:25px;
     width: 100%;
   }
-
+.address {
+  font-size: 15px;
+}
 }
