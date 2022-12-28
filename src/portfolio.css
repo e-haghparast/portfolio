@@ -31,6 +31,15 @@ h1 {
   padding: 160px 20px;
   background-color: var(--primary-color);
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-content h1{
+font-size: 64px;
+}
+.about-section-content h2{
+  font-size: 30px;
+}
 .hero p {
   text-align: center;
   background-color: var(--accent-color);
@@ -70,8 +79,16 @@ h1 {
   .hero {
      padding: 80px 10px;
   }
+  .about-section{
+    padding: 0;
+  }
+ .about-section-content h2 {
+  font-size: 24px;
+
+ }
   .hero p {
     font-size:25px;
     width: 100%;
   }
+
 }
